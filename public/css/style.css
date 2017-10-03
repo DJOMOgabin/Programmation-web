@@ -1,0 +1,188 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 50%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.langForms{
+  width: 120px;
+}
+
+input.header-search-input {
+  display: block;
+  padding: 8px 4px 8px 60px;
+  width: 100%;
+  background: whitesmoke;
+  border-color: #1E88E5;
+  color: black;
+  height: 24px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-size: 16px;
+  appearance: textfield;
+  font-weight: 400;
+  outline: none;
+  border-radius: 5px;
+  max-width: 500px;
+  position: absolute;
+  left: 300px;
+  top: 8px;
+}
+
+#header-search{
+  float:left;
+  height: 24px;
+  padding-bottom: 8px;
+  background-color: transparent;
+  position: absolute;
+  top: 0.5px;
+  left:800px;
+}
+
+.i-search{
+  border-radius: 2px;
+}
+
+.nav-externe{
+  display: block;
+  padding-top: 10px;
+  position: relative;
+  max-height: 18%;
+}
+
+.nav-interne{
+  max-height: 15%;
+}
+
+nav .brand-logo{
+  margin-left: 50px;
+}
+.langue{
+  display: inline-block;
+  max-height: 35px;
+}
+
+.ul-langue{
+  display: inline-block;
+
+}
+
+.div-langue{
+  padding-top: 5px;
+}
+
+.li-langue{
+  margin-left: 5px;
+  width: 100%;
+}
+
+#tab-mobile{
+  background-color: transparent;
+  max-width: 80%;
+}
+
+
+
+.carousel-div{
+  display: block;
+  position: relative;
+  top: 18.5%;
+}
+
+.description{
+  position: relative;
+  right: 200px;
+  width: 500px;
+  height: 100%;
+}
+
+.carousel_writings{
+  position: relative;
+  height: 100%;
+  width: 95%;
+}
+
+.slides-services{
+  background-color: #bbdefb;
+}
+
+#google_translate_element{
+  background-color: transparent;
+}
+
+.selectedService{
+  background-color: lightseagreen;
+  opacity: 1;
+}
+div[id*="icon"]{
+  position: relative;
+  left:80px;
+  top:-200px;
+}
+/** STYLE POUR LISTER LES PRODUITS **/
+
+
+/** STYLE BOUTIQUE **/
+#slider_Produits{
+  position: relative;
+  right: 20px;
+}
+#bar_de_nav{
+  background-color: #bbdefb;
+  padding-left: 20px;
+}
+.divider-new {
+  margin-top: 0;
+}

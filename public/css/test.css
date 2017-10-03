@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+}
+
+
+@media (min-width:992px) {
+
+}
+
+@media (max-width:992px) {
+
+}
+
+#push.pin-top {
+    position:relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section.pin-top {
+    position: fixed;
+    width: 100%;
+    z-index:99;
+}
+
+section.pinned {
+    display:none;
+    z-index:1;
+}
+
+#push.pinned {
+    position: static;
+    width: 100%;
+    display:none;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top:0;
+}
+
+#push {
+    position:relative;
+    height: 100%;
+}
+
+#main {
+    background-color:white;
+    position:relative;
+    z-index:990;
+}
+
+/** BARRE DE RECHERCHE */
+.nav-wrapper .input-field input[type=search] {
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 12px;
+    left: 250px;
+    width: 35%;
+}
+.nav-wrapper input[type="search"]:focus {
+    position: fixed;
+    top: 12px;
+    width: 35%;
+}
+.input-field label {
+    max-height: 45px;
+}
+.nav-wrapper input[type="search"]:focus ~ .label-icon.active {
+    position: fixed;
+    left: 20%;
+}
+.nav-wrapper input[type="search"]:focus ~ .closed {
+    position: fixed;
+    right: 35%;
+}
+#recherche_A{
+    height: 40px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    position: fixed;
+    right: 42%;
+    top: 12px;
+}
+.logo-wrapper .brand-logo{
+    position: fixed;
+    left: 0px;
+}
+
+/** AVATAR **/
+.wrapper {
+    background-image: url("../images/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 12px;
+    right: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav-border{
+    width: 100%;
+}
+#menus{
+    position: fixed;
+    right: 250px;
+}
+#welcome{
+    Position: fixed;
+    right:70px;
+}
+#welcome{
+    text-decoration: blink;
+}
+#button_signIn{
+    position: relative;
+    bottom: 150px;
+}
+.millieu{
+    position: fixed;
+    bottom: 0px;
+}
